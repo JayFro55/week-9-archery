@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="styles/form.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Maven+Pro|Unlock" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <h1>Contact Us</h1>
+        <img src="images/logo.png" alt="Logo">
+      </div>
+      <nav class="wrapper">
+        <ul>
+          <li><a class="nav" href="index.html">Home</a></li>
+          <li><a class="nav" href="#">Classes</a></li>
+          <li><a class="nav" href="#">Private Lessons</a></li>
+          <li><a class="nav" href="instructors.html">Instructors</a></li>
+          <li><a class="nav" href="form.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <form action="/action.php" method="get">
+        <!-- <div> -->
+          <label>First Name:
+            <input type="text" name="firstname">
+          </label>
+        <!-- </div> -->
+        <!-- <div> -->
+          <label>Last Name:
+            <input type="text" name="lastname">
+          </label>
+        <!-- </div> -->
+        <!-- <div> -->
+          <label>Email:
+            <input type="text" name="email">
+          </label>
+        <!-- </div> -->
+        <!-- <div> -->
+          <label>Message:
+            <textarea name="message" rows="8" cols="50"></textarea>
+          </label>
+        <!-- </div> -->
+        <!-- <div> -->
+          <label>Date:
+            <input type="date" name="date">
+          </label>
+        <!-- </div> -->
+        <!-- <label>Experience with Straight to the Point Archery:
+          <input type="radio" name="rating" value="1">1(Poor)
+          <input type="radio" name="rating" value="2">2
+          <input type="radio" name="rating" value="3">3
+          <input type="radio" name="rating" value="4">4
+          <input type="radio" name="rating" value="5">5(Excellent)
+        </label>
+        <label>Experience with Straight to the Point Archery:
+          <input type="number" min="1" max="5" name="rating">
+        </label> -->
+        <!-- <div> -->
+          <label>Experience with Straight to the Point Archery:
+            <select name="rating">
+              <option value="--">--</option>
+              <option value="1">1 (Poor)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Excellent)</option>
+            </select>
+          </label>
+        <!-- </div> -->
+        <!-- <div> -->
+        <label>
+          <input type="submit" value="Send" name="submit">
+        </label>
+        <!-- </div> -->
+      </form>
+    </main>
+    <footer>
+      <div class="footer">
+        <h5>Nondiscriminatory Policy</h5>
+        <p>Next Step Archery admits students of any race, gender presentation, sexuality, religion, national origin or ethnic origin to all rights, privileges, programs and activities available to students at the school. We do not discriminate in administration of our educational policies, admission policies and other school administered programs. All students are welcome and valuable members of our community.</p>
+        <ul>
+          <li>528 Nock Point Ln <br/>
+          Tacoma, WA 98412</li>
+          <!-- possibly add maps in the future -->
+          <li>Telephone: (253)555-1010</li>
+          <li>Email: archery-education@example.com</li>
+        </ul>
+      </div>
+
+    </footer>
+  </body>
+</html>

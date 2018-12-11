@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+h1 {
+  color: #03a3df;
+  font-family: 'Unlock';
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: .4rem;
+}
+nav {
+  background-color: lightgray;
+  padding-bottom: 2rem;
+  padding-left: .4rem;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  float:left;
+  margin: 0;
+  padding: .5rem 0 .5rem 0;
+}
+.nav {
+  text-decoration: none;
+  color: #03a3df;
+  font-family: arial;
+  transition: font-size .25s, color .25s;
+
+  padding-right: 1rem;
+}
+.nav:hover {
+  font-size: 115%;
+  text-decoration: underline;
+  color: #1b447f;
+}
+.wrapper ul li {
+  height: 2rem;
+}
+main {
+  color: white;
+  background-color: #03a3df;
+
+  margin-bottom: .25rem;
+}
+p{
+  margin-top: 0;
+  font-family: 'acme';
+}
+footer {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg");
+  background-size: 100% 100%;
+}
+.footer {
+  color: white;
+  font-family: 'Maven Pro';
+  font-size: .75rem;
+  padding: .01rem .5rem .01rem .5rem;
+}
+h5{
+  margin-bottom: 0;
+  text-decoration: underline;
+  font-family: "Unlock";
+}
+input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+  box-sizing: border-box;
+}
+label{
+  padding: .25rem;
+  display: block;
+}
+input {
+  display: block;
+  padding: .25rem;
+}

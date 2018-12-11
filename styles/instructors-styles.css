@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #03a3df;
+  font-family: 'Unlock';
+}
+
+.title {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: .4rem;
+}
+nav {
+  background-color: lightgray;
+
+  padding-bottom: .5rem;
+  padding-left: .4rem;
+}
+
+nav ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  float:left;
+  padding: .5rem 0 .5rem 0;
+}
+.nav {
+  text-decoration: none;
+  color: #03a3df;
+  font-family: arial;
+  transition: font-size .25s, color .25s;
+
+  padding-right: 1rem;
+}
+.nav:hover {
+  font-size: 115%;
+  text-decoration: underline;
+  color: #1b447f;
+}
+
+main {
+  color: white;
+  background-color: #03a3df;
+  margin-bottom: .25rem;
+}
+h2 {
+  text-decoration: underline;
+  font-family: 'Unlock';
+  margin: 0;
+  margin-bottom: .5rem;
+
+}
+
+.wrapper {
+  overflow: auto;
+}
+.instructor-pic{
+  transition: transform .25s;
+}
+.instructor-pic:hover{
+  transform: scale(1.5);
+}
+.grid-container {
+  display: grid;
+  grid-row-gap: 0;
+
+}
+
+article {
+  padding: 1rem;
+  padding-bottom: .75rem;
+  padding-top: 0;
+
+}
+.item1{
+  margin: 1.5rem 0 0 0;
+}
+
+p{
+  margin-top: .25rem;
+  font-family: 'acme';
+}
+footer {
+  width: 100%;
+  height: 100%;
+  background-image: url("https://raw.githubusercontent.com/UWFront-End-Cert/html100/master/lesson07-styleguide/styleguide%20design%20elements/footerImage.jpg");
+  background-size: 100% 100%;
+}
+.footer {
+  color: white;
+  font-family: 'Maven Pro';
+  font-size: .75rem;
+  padding: .01rem .5rem .01rem .5rem;
+}
+h5{
+  font-family: "Unlock";
+  margin-bottom: 0;
+  text-decoration: underline;
+}
